@@ -1,9 +1,9 @@
 'use strict';
-let ZError = require('../index');
-let errorCode2Text = require('../index').errorCode2Text;
-let formatParam2Code = require('../index').formatParam2Code;
-let getMessage = require('../index').getMessage;
-let verify = require('../index').verify;
+const ZError = require('../index');
+const errorCode2Text = require('../index').errorCode2Text;
+const formatParam2Code = require('../index').formatParam2Code;
+const getMessage = require('../index').getMessage;
+const verify = require('../index').verify;
 
 let error = new ZError("erro", 1001, 'zh-cn');
 console.log(error.name);
