@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f2791b6-9b2d-4816-a8a5-ddef70915cb1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/errorTable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/errorTable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ZError.js" afterPath="$PROJECT_DIR$/lib/ZError.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/errorTable.js" afterPath="$PROJECT_DIR$/lib/errorTable.js" />
     </list>
     <ignored path="z-error.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,6 +23,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="errorCodeTable.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/errorCodeTable.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../AccountsComponent/common/config.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -39,8 +46,8 @@
       <file leaf-file-name="errorTable.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/errorTable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="578">
+              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -295,12 +302,12 @@
       <option name="presentableId" value="Default" />
       <updated>1472806291767</updated>
       <workItem from="1472806293025" duration="5437000" />
-      <workItem from="1473038480750" duration="7320000" />
+      <workItem from="1473038480750" duration="7958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12757000" />
+    <option name="totallyTimeSpent" value="13395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -397,14 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/errorCodeTable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="253" column="0" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../AccountsComponent/common/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -421,10 +420,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/errorCodeTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/errorTable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="578">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
           <folding />
         </state>
       </provider>
