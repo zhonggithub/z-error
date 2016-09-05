@@ -1,0 +1,33 @@
+{
+  "name": "z-error",
+  "description": "",
+  "version": "0.0.1",
+  "keywords": [
+    "z-error",
+    "Restful"
+  ],
+  "maintainers": [
+    {
+      "name": "Zz",
+      "email": "quitjie@gmail.com"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Zz",
+      "web": "https://github.com/zhonggithub"
+    }
+  ],
+  "bugs": {
+    "mail": "quitjie@gmail.com",
+    "web": "https://github.com/zhonggithub"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:zhonggithub/z-error.git"
+    }
+  ],
+  "dependencies": {
+  }
+}
