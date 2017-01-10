@@ -1,33 +1,39 @@
 {
   "name": "z-error",
-  "description": "",
-  "version": "0.0.5",
+  "version": "0.0.9",
   "keywords": [
     "z-error",
     "Restful"
   ],
   "maintainers": [
-    {
-      "name": "Zz",
-      "email": "quitjie@gmail.com"
-    }
+    "Zz <quitjie@gmail.com>"
   ],
   "contributors": [
-    {
-      "name": "Zz",
-      "web": "https://github.com/zhonggithub"
-    }
+    "Zz (https://github.com/zhonggithub)"
   ],
   "bugs": {
-    "mail": "quitjie@gmail.com",
-    "web": "https://github.com/zhonggithub"
+    "url": "https://github.com/zhonggithub"
   },
   "repositories": [
     {
       "type": "git",
-      "url": "git@github.com:zhonggithub/z-error.git"
+      "url": "git+ssh://git@github.com/zhonggithub/z-error.git"
     }
   ],
-  "dependencies": {
-  }
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zhonggithub/z-error.git"
+  },
+  "homepage": "https://github.com/zhonggithub/z-error#readme",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
