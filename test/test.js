@@ -7,6 +7,7 @@ const verify = require('../index').verify;
 
 let error = new ZError("erro", 1001, 'zh-cn');
 console.log(error.name);
+console.log(error);
 console.log(error.getMessage());
 console.log(error.getMessage('en'));
 console.log(error.stack);
