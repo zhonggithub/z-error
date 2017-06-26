@@ -1,6 +1,6 @@
 {
   "name": "z-error",
-  "version": "0.0.19",
+  "version": "1.0.0",
   "keywords": [
     "z-error",
     "Restful"
@@ -20,7 +20,9 @@
       "url": "git+ssh://git@github.com/zhonggithub/z-error.git"
     }
   ],
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/zhonggithub/z-error.git"
