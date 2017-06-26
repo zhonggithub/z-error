@@ -1,6 +1,6 @@
 {
   "name": "z-error",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "z-error",
     "Restful"
@@ -30,6 +30,7 @@
   "homepage": "https://github.com/zhonggithub/z-error#readme",
   "main": "index.js",
   "directories": {
+    "lib": "lib",
     "test": "test"
   },
   "scripts": {
@@ -37,5 +38,6 @@
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {},
   "description": ""
 }
