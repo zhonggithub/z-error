@@ -19,4 +19,13 @@ console.log(err.getMessage('zh_cn'));
 err.lang = 'zh_cn';
 console.log(err.getMessage())
 err.lang = 'en';
-console.log(err.getMessage())
+console.log(err.getMessage());
+
+let err1 = verify({
+    account: 'aa'
+}, null, {
+    account: () => {
+        return false;
+    }
+});
+console.log(err1);
