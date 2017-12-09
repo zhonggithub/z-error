@@ -28,4 +28,20 @@ let err1 = verify({
         return false;
     }
 });
+
+err1 = verify({
+    account: 'aa'
+}, ['password'], {
+    account: () => {
+        return false;
+    }
+}, "MISSING_PARAMS", "ERR_PARAMS");
+
+err1 = verify({
+    account: 'aa'
+}, null, {
+    account: () => {
+        return false;
+    }
+}, "MISSING_PARAMS", "ERR_PARAMS");
 console.log(err1);
