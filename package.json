@@ -1,9 +1,10 @@
 {
   "name": "z-error",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "keywords": [
     "z-error",
-    "Restful"
+    "Restful",
+    "error code"
   ],
   "maintainers": [
     "Zz <quitjie@gmail.com>"
