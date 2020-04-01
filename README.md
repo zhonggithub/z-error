@@ -1,5 +1,7 @@
 # z-error
 
+校验字段有效性，合法性
+
 ## 如何使用
 
 `npm install z-error`
@@ -25,7 +27,7 @@ err.getMessage();
 err.lang = 'en';
 err.getMessage();
 
-// 校验account字典合法性
+// 校验account字端合法性
 let err1 = verify({
   account: 'aa'
 }, null, {
