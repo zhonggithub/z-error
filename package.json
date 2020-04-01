@@ -1,6 +1,6 @@
 {
   "name": "z-error",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "keywords": [
     "z-error",
     "Restful"
@@ -21,7 +21,7 @@
     }
   ],
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.15"
   },
   "repository": {
     "type": "git",

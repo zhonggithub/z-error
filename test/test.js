@@ -14,7 +14,7 @@ console.log(error.getMessage('en'));
 // console.log(error.stack);
 console.log(getMessage(1001, 'zh_cn'));
 let err = verify({account: 'aa'}, ['password']);
-console.log(err);
+console.log(err.toJSON());
 console.log(err.getMessage('zh_cn'));
 err.lang = 'zh_cn';
 console.log(err.getMessage())
