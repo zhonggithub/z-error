@@ -28,6 +28,10 @@ let err1 = verify({
         return false;
     }
 });
+console.log(err1);
+console.log('-----start stack------');
+console.log(err1.stack);
+console.log('-----end stack------');
 
 err1 = verify({
     account: 'aa'

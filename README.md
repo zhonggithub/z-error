@@ -27,7 +27,7 @@ err.getMessage();
 err.lang = 'en';
 err.getMessage();
 
-// 校验account字端合法性
+// 校验account属性值合法性
 let err1 = verify({
   account: 'aa'
 }, null, {
@@ -42,7 +42,8 @@ let err1 = verify({
   }
 });
 
-// 校验是否含有password属性，并校验account合法性
+// 1，自定义属性缺失及属性合法性错误提示前缀
+// 2，校验是否含有password属性，并校验account合法性
 err1 = verify({
   account: 'aa'
 }, ['password'], {
