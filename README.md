@@ -1,6 +1,8 @@
 # z-error
 
-校验字段有效性，合法性
+* verify： 校验字段有效性，合法性。检验不通过返回ZError对象，否则返回null
+* ZError： 错误提示，继承Error。name表示错误名称，code表示错误码，message表示code对应的提示信息，description错误描述。status表示restful api 状态码
+* setLocal：设置多语言错误对照码
 
 ## 如何使用
 
