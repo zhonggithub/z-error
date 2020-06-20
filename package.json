@@ -40,5 +40,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {},
-  "description": ""
+  "description": "",
+  "files": [
+    "index.js",
+    "lib/",
+    "package.json"
+  ]
 }

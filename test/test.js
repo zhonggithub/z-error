@@ -34,12 +34,11 @@ console.log(err1.stack);
 console.log('-----end stack------');
 
 err1 = verify({
-    account: 'aa'
-}, ['password'], {
-    account: () => {
-        return false;
-    }
-}, "MISSING_PARAMS", "ERR_PARAMS");
+    account: 'aa',
+    password: 'a'
+}, ['password', 'accountRoleId'], null, "MISSING_PARAMS", "ERR_PARAMS");
+
+console.log(err1)
 
 err1 = verify({
     account: 'aa'
