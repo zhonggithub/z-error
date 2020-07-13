@@ -9,7 +9,7 @@
 `npm install z-error`
 
 ```javascript
-const { ZError, getMessage, verify, setLocal } = require('z-error');
+const { ZError, getMessage, getErrCodeTable, verify, setLocal } = require('z-error');
 
 // 设置错误码对照表目录
 setLocal('zh_cn', `${__dirname}/local`);
